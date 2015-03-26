@@ -1,0 +1,13 @@
+{
+  "name": "mongosync",
+  "version": "0.0.1",
+  "description": "Synchronizes mongodb collection to file system (so you may edit json documents in your prefered editor)",
+  "main": "index.js",
+  "author": "Alexey Grishin",
+  "dependencies": {
+    "mongodb": "^2.0.24",
+    "chokidar": "*",
+    "yargs": "*",
+    "fs-extra": "*"
+  }
+}
